@@ -1,32 +1,60 @@
-# React + TypeScript + Vite
+# Sachin S — Cloud & DevOps Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Modern, high-performance portfolio for **Sachin S**, Aspiring Cloud Engineer and Final-Year MSc Computer Science student (84% aggregate, graduating April 2027), architecting scalable AWS & GCP cloud infrastructure.
 
-Currently, two official plugins are available:
+## 🚀 Live Stack & Architecture
+- **Framework:** [React 19](https://react.dev/) + [Vite 8](https://vite.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [GSAP](https://greensock.com/gsap/) + [Lenis](https://github.com/darkroomengineering/lenis) (Smooth Parallax)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Language:** TypeScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Local Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### 1. Install Dependencies
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Start Dev Server
+```bash
+npm run dev
+```
+
+### 3. Production Build
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deploying to Vercel via Git
+
+1. **Initialize / Update Git Remote:**
+   ```bash
+   git remote set-url origin https://github.com/ssachinrgs-beep/<your-repo-name>.git
+   # Or create a new repository and push:
+   git branch -M main
+   git add .
+   git commit -m "Update portfolio for Sachin S"
+   git push -u origin main
+   ```
+
+2. **Deploy on Vercel:**
+   - Log in to [Vercel](https://vercel.com).
+   - Click **Add New Project** and select your GitHub repository.
+   - Vercel automatically detects **Vite**:
+     - **Framework Preset:** `Vite`
+     - **Build Command:** `npm run build`
+     - **Output Directory:** `dist`
+     - **Install Command:** `npm install`
+   - Click **Deploy**!
+
+---
+
+## 📬 Contact & Connect
+- **Email:** [ssachinrgs@gmail.com](mailto:ssachinrgs@gmail.com)
+- **LinkedIn:** [linkedin.com/in/sachin-s-ba7019412](https://linkedin.com/in/sachin-s-ba7019412)
+- **GitHub:** [github.com/ssachinrgs-beep](https://github.com/ssachinrgs-beep)

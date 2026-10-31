@@ -87,13 +87,13 @@ export function ParallaxComponent() {
               />
             </div>
 
-            {/* Layer 3: Text Title "BRNPRO" */}
+            {/* Layer 3: Text Title "SACHIN S" */}
             <div data-parallax-layer="3" className="absolute inset-0 w-full h-full flex flex-col items-center justify-center z-20 pointer-events-none px-4 text-center">
-              <h1 className="parallax__title text-7xl sm:text-9xl md:text-[13rem] font-black tracking-tighter text-white uppercase drop-shadow-2xl leading-none font-sans">
-                BRNPRO
+              <h1 className="parallax__title text-6xl sm:text-8xl md:text-[11rem] font-black tracking-tighter text-white uppercase drop-shadow-2xl leading-none font-sans">
+                SACHIN S
               </h1>
               <p className="text-zinc-400 font-mono tracking-widest text-xs sm:text-base uppercase mt-4">
-                Bharanidharan S — Java &amp; Full Stack Software Developer
+                Aspiring Cloud Engineer • Final-Year MSc Computer Science (Graduating Apr 2027)
               </p>
             </div>
 
